@@ -1,0 +1,1 @@
+Cheesr online shop example in [Wicket in Action](https://www.manning.com/books/wicket-in-action) ([Source code](https://code.google.com/archive/p/wicketinaction/)). Built on top of Spring Boot.

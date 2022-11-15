@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:wicket="http://wicket.apache.org"
+	xsi:schemaLocation="http://www.w3.org/MarkUp/SCHEMA/xhtml11.xsd http://wicket.apache.org"
+	xml:lang="en">
+	<body>
+		<wicket:panel>
+			<h3>Your Selection</h3>
+			<table>
+				<tbody>
+					<tr wicket:id="cart">
+						<td wicket:id="name">Gouda</td>
+						<td wicket:id="price">$1.99</td>
+						<td><a wicket:id="remove" href="#">remove</a></td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr class="total">
+						<th>Total:</th>
+						<td wicket:id="total">$10.97</td>
+						<td>&nbsp;</td>
+					</tr>
+				</tfoot>
+			</table>
+		</wicket:panel>
+	</body>
+</html>

@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Wicket Quickstart Archetype Homepage</title>
+        <link type="text/css" href="style/style.css" rel="stylesheet"/>
+    </head>
+    <body>
+		<div id="container" >
+			<div id="header"><h1>Cheesr</h1></div>
+			<wicket:link>
+				<ul>
+					<li><a href="Index.html">Home</a></li>
+					<li><a href="Showcase.html">Showcase</a></li>
+				</ul>
+			</wicket:link>
+			<div id="contents">
+				<div id="main" >
+					Cheese details
+					<h2 wicket:id="name">Cheese Name</h2>
+					<p wicket:id="description"></p>
+					<span wicket:id="price"></span>
+				</div>
+				<div id="cart">
+					<div wicket:id="shoppingcart"></div>
+					<input type="button" wicket:id="checkout" value="Check out"/>
+				</div>
+			</div>
+		</div>
+    </body>
+</html>
